@@ -23,7 +23,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             firebaseAppDistribution {
                 artifactType="APK"
-                artifactPath="$project.buildDir/outputs/apk/release/app-release.apk"
+                artifactPath="$project.buildDir/outputs/apk/release/app-release-unsigned.apk"
                 releaseNotesFile="Pilot"
                 groups="vpb"
             }
