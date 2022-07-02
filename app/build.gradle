@@ -24,7 +24,7 @@ android {
             firebaseAppDistribution {
                 artifactType="APK"
                 artifactPath="$project.buildDir/outputs/apk/release/app-release-unsigned.apk"
-                releaseNotes="Pilot"
+                releaseNotes="Pilot 2"
                 groups="vpb"
             }
         }
